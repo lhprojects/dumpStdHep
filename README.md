@@ -1,20 +1,28 @@
 # dumpStdHep
-Show particles in .stdhep file
+Show particles in .stdhep or .slcio (particles format) file
+This utils works with CEPC soft.
+
 
 ## Build
 
+1. Setup CEPC soft chain
+
+
+2. Run
 ```
+cd path/to/dumpStdHep
 mkdir build
-cmake <path/to/directory/of/CMakeLists.txt>
+cd build
+cmake path/to/directory!!!/of/CMakeLists.txt
 make install
-```
-You could find the binary at `<home/of/project>/bin/`.
+```bash
+
+3. You could find the binary at `path/to/dumpStdHep/bin`.
 
 
 ## Run
 ```
 path/to/dumpStdHep [options] <stdhep/file> <event_number(starts width 0)>
+```bash
 
-options:
-  --tree, -t: tree style output
-```
+use --help to see more options
