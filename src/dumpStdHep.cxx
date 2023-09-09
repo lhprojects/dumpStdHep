@@ -38,7 +38,7 @@ void print_help() {
     printf("    --generator, -g:   show particles only with generator status not empty\n");
     printf("    --pdgid, -id   :   show pdgid\n");
     printf("    --generator_status, -gs   :   show generator status\n");
-    printf("    --simulator_status, -gs   :   show simulator status\n");
+    printf("    --simulator_status, -ss   :   show simulator status\n");
     printf("    --created_in_simulation, -cis   :   show if particle is created in simulation\n");
 }
 
